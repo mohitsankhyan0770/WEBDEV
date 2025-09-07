@@ -1,0 +1,46 @@
+#hero-sec {
+    background-image: url(./assets/WallpaperEngineLockOverride_randomJXJVOQ.jpg);
+    background-size: cover;
+    background-position: 50%;
+
+    }
+
+#gogo {
+    color: rgb(252, 250, 250);
+    font-size: 150px;
+    font-weight: 600;
+    text-shadow:
+    3px 1px 4px rgb(50, 38, 38);   
+   
+}
+
+@media (max-width: 600px){
+    #gogo {
+        font-size: 60px;
+    }
+}
+
+#fullstack {
+    font-size: 40px;
+    background: rgba(333, 333, 333, .9);
+    width: 500px;
+}
+
+@media (max-width: 600px) {
+    #fullstack {
+        font-size: 28px;
+        width: 200px;
+    }
+    
+}
+.profile {
+    border-radius: 50%;
+}
+
+.iphon {
+    margin: 10px;
+}
+
+#skills img {
+    margin: 5px;
+}
